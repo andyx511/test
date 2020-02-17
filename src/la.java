@@ -1,5 +1,5 @@
 public class la {
     public static void main(String[]args){
-        System.out.println("lsllas");
+        System.out.println("我爱你");
     }
 }
