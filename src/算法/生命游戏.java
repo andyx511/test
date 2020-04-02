@@ -33,7 +33,12 @@ public class 生命游戏 {
                 isAlive(board,i,j,newBorad);
             }
         }
-
+        for (int i = 0; i < row; i++){
+            for (int j = 0; j < col; j++){
+                System.out.print(board[i][j]);
+            }
+            System.out.println();
+        }
     }
     public static int calculateQuantity(int[][] board, int x, int y){
         int row = board.length; // 4
