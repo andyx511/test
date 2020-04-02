@@ -29,7 +29,6 @@ public class sort {
             adjustHeap(arr,0,j);
             //重新对堆进行调整
         }
-        Map map = new ConcurrentHashMap();
 
     }
 
