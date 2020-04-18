@@ -63,6 +63,7 @@ public class 找出不同 {
         for (Map mapOld : oldList){
             map.put(mapOld.get("perCode").toString(),false);
         }
+        // test
         for (Map mapNew : newList){
             if (!map.containsKey(mapNew.get("perCode").toString())){
                 addList.add(mapNew.get("perCode").toString());
