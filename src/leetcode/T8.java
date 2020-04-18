@@ -16,6 +16,7 @@ public class T8 {
     }
 
     public static int myAtoi(String string){
+        string = string.trim();
         String pattern = "[-+]??[0-9]++";
         Pattern r = Pattern.compile(pattern);
         Matcher matcher = r.matcher(string);
