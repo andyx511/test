@@ -40,6 +40,7 @@ public class 找出不同 {
         List<Map> newList = new ArrayList<>();
         newList.add(map0);
         newList.add(map6);
+
         int newIndex = 0, oldIndex = 0;
 
         List<String> addList = new ArrayList<>();
