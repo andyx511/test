@@ -76,9 +76,9 @@ public class 找出不同 {
                 subList.add((entry.getKey()));
             }
         }
-        System.out.println("增加的信息");
+        /*System.out.println("增加的信息");
         addList.stream().forEach(System.out::println);
         System.out.println("减少的信息");
-        subList.stream().forEach(System.out::println);
+        subList.stream().forEach(System.out::println);*/
     }
 }

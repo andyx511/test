@@ -25,7 +25,7 @@ public class StreamParallelDemo {
             list.add(random.nextInt(100));
         }
 
-        long prevTime = getCurrentTime();
+        /*long prevTime = getCurrentTime();
         list.stream().reduce((a, b) -> a + b).ifPresent(System.out::println);
         System.out.println(String.format("单线程计算耗时：%d", getCurrentTime() - prevTime));
 
@@ -33,7 +33,7 @@ public class StreamParallelDemo {
         // 只需要加上 .parallel() 就行了
         list.stream().parallel().reduce((a, b) -> a + b).ifPresent(System.out::println);
         System.out.println(String.format("多线程计算耗时：%d", getCurrentTime() - prevTime));
-
+*/
     }
 
     private static long getCurrentTime() {

@@ -1,6 +1,5 @@
 package leetcode;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -34,6 +33,7 @@ public class na1 {
                 list.add(i%2);
             }
         }
-        return list.stream().mapToInt(Integer::valueOf).toArray();
+        return null;
+        //return list.stream().mapToInt(Integer::valueOf).toArray();
     }
 }
