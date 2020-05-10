@@ -1,6 +1,4 @@
-package 单例;
-
-import java.util.Enumeration;
+package 设计模式.单例;
 
 /**
  * projectName：test

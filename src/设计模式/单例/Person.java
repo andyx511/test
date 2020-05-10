@@ -1,4 +1,4 @@
-package 单例;
+package 设计模式.单例;
 
 /**
  * projectName：test

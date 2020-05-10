@@ -1,8 +1,6 @@
 package 线程;
 
 
-import 单例.Singleton;
-
 /**
  * projectName：test
  * name：volatileTest
