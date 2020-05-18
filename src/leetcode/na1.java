@@ -1,9 +1,7 @@
 package leetcode;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Stack;
 
 /**
  * projectName：test
@@ -14,26 +12,13 @@ import java.util.Stack;
  */
 public class na1 {
     public static void main(String[] args) {
-        String seq = "(()())";
-        int[]a = maxDepthAfterSplit(seq);
-        System.out.println(Arrays.toString(a));
+        List<List<Integer>> lists = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
+        //list.add(0,1);
+        lists.add(0,list);
+        lists.get(0).add(1);
+
+        System.out.println(lists.toString());
     }
-    public static int[] maxDepthAfterSplit(String seq) {
-        List<Integer> list = new ArrayList<>(seq.length());
-        Stack<String> stack = new Stack<>();
-        int i = 0;
-        for (String s:seq.split("")) {
-            if (s.equals("(")){
-                stack.push("(");
-                list.add(i%2);
-                i++;
-            }else {
-                stack.pop();
-                i--;
-                list.add(i%2);
-            }
-        }
-        return null;
-        //return list.stream().mapToInt(Integer::valueOf).toArray();
-    }
+
 }
