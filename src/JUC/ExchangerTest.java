@@ -7,11 +7,11 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
- * projectName：test
- * name：Exchanger
- * description：todo
- * date：2020/5/12 11:05 下午
- * auther：AlexNi
+ * @projectName：test
+ * @name：Exchanger
+ * @description：todo
+ * @date：2020/5/12 11:05 下午
+ * @auther：AlexNi
  */
 public class ExchangerTest {
     public void latch() throws InterruptedException, IOException {
